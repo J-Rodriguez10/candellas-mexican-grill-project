@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Candella's Mexican Grill</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css" />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- nav-header -->
+          <div class="nav-header">
+            <!-- logo -->
+            <div class="logo-container">
+              <img
+                src="./img/candella-logo.svg"
+                alt="Candella's Mexican Grill"
+              />
+            </div>
+            <!-- nav-right -->
+            <div class="nav-right">
+              <!--social media icons  -->
+              <ul class="social-icons">
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook social-icon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-instagram social-icon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-yelp social-icon"></i>
+                  </a>
+                </li>
+              </ul>
+              <!-- toggle button -->
+              <button type="button" class="nav-toggle">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- web-links-left -->
+          <ul class="web-links-left links">
+            <li>
+              <a href="#">about us</a>
+            </li>
+            <li>
+              <a href="#">menu</a>
+            </li>
+            <li>
+              <a href="#">drinks</a>
+            </li>
+          </ul>
+          <!-- web-links-right -->
+          <ul class="web-links-right links">
+            <li>
+              <a href="#">events</a>
+            </li>
+            <li>
+              <a href="#">catering</a>
+            </li>
+            <li>
+              <a href="#">reviews</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end of navbar -->
+      <!-- hero -->
+      <div class="hero">
+        <!-- vid -->
+        <video autoplay muted loop class="hero-vid" poster="">
+          <source src="./videos/hero-vid-1.mp4" type="video/mp4" />
+          Sorry, your browser does not support embedded videos
+        </video>
+      </div>
+      <!-- end of hero -->
+    </header>
+    <!-- end of header -->
+
+    <!-- location -->
+    <div class="location">
+      <a
+        href="https://www.google.com/maps/place/Chipotle+Mexican+Grill/@37.2486555,-121.8077506,17z/data=!3m1!4b1!4m6!3m5!1s0x808e2e2268ffd237:0x1a5836227ba44c0!8m2!3d37.2486513!4d-121.8028797!16s%2Fg%2F11b77xv094?entry=ttu"
+        target="_blank"
+        class="location-container"
+      >
+        <i class="fa-solid fa-location-dot location-icon"></i>
+        <p class="location-text">5670 Cottle Rd Ste 30, San Jose, CA 95123</p>
+        <!-- <div class="location-text">
+          <p>5670 Cottle Rd Ste 30, San Jose, CA 95123</p>
+        </div> -->
+      </a>
+    </div>
+    <!-- end of location -->
+
+    <!-- restaurant cards -->
+    <section class="restaurant-cards">
+      <!--  Card 1 - Catering -->
+      <div class="card">
+        <!-- img -->
+        <div class="card-img">
+          <img class="img" src="./img/catering.jpg" alt="we do catering" />
+        </div>
+        <!-- info -->
+        <div class="card-info">
+          <h3 class="title">Catering</h3>
+          <div class="card-png">
+            <img src="./img/catering-plate.png" class="img" alt="" />
+          </div>
+          <p>
+            Whatever your event, we have the perfect catering options to choose
+            from.
+          </p>
+          <button class="btn card-btn">Inquire</button>
+        </div>
+      </div>
+      <!-- Card 2 - Menu -->
+      <div class="card reverse">
+        <!-- img -->
+        <div class="card-img">
+          <img
+            class="img"
+            src="https://static.spotapps.co/website_images/ab_websites/88436_website/menu_left.jpg"
+            alt="we do catering"
+          />
+        </div>
+        <!-- info -->
+        <div class="card-info">
+          <h3 class="title">Menu</h3>
+          <div class="card-png">
+            <img src="https://static.spotapps.co/website_images/ab_websites/88436_website/title_decoration_2.png" class="img" alt="" />
+          </div>
+          <p>
+            We only use the best, always fresh ingredients. We invest in quality
+            to bring you the great taste you deserve and know us for.
+          </p>
+          <button class="btn card-btn">View Menu</button>
+        </div>
+      </div>
+      <!-- Card 3 - Events -->
+      <div class="card">
+        <!-- img -->
+        <div class="card-img">
+          <img
+            class="img"
+            src="https://static.spotapps.co/website_images/ab_websites/88436_website/order_right.jpg
+"
+            alt="we do catering"
+          />
+        </div>
+        <!-- info -->
+        <div class="card-info">
+          <h3 class="title">Events</h3>
+          <div class="card-png">
+            <img
+              src="https://static.spotapps.co/website_images/ab_websites/88436_website/title_decoration_3.png"
+              class="img"
+              alt=""
+            />
+          </div>
+          <p>
+            Discover exciting upcoming events at our authentic mexican
+            restaurant
+          </p>
+          <button class="btn card-btn">Check Out</button>
+        </div>
+      </div>
+    </section>
+    <!-- end of restaurant cards -->
+
+    <!-- about us -->
+    <section class="section-center about-us">
+      <h3 class="title title-underline">About Us</h3>
+      <p>
+        All our dishes are made from scratch with homemade flavors. We have our
+        unique Cali-Moco and moco- loco burrito.
+      </p>
+      <button class="btn">Read More</button>
+    </section>
+    <!-- end of about us -->
+
+    <!-- gallery  -->
+    <section class="gallery-grid">
+      <!-- item 1 -->
+      <article class="item1 item">
+        <img src="./img/food-dish-1.jpg" alt="" class="img" />
+        <div class="shadow"></div>
+      </article>
+      <!-- item 2 -->
+      <article class="item2 item">
+        <img src="./img/drink-1.jpg" alt="" class="img" />
+        <div class="shadow"></div>
+      </article>
+      <!-- item 3 -->
+      <article class="item3 item">
+        <img src="./img/food-dish-2.jpg" alt="" class="img" />
+        <div class="shadow"></div>
+      </article>
+      <!-- item 4 -->
+      <article class="item4 item">
+        <img src="./img/drink-2.jpg" alt="" class="img" />
+        <div class="shadow"></div>
+      </article>
+      <!-- item 5 -->
+      <article class="item5 item">
+        <img src="./img/food-dish-3-ver-2.jpg" alt="" class="img" />
+        <div class="shadow"></div>
+      </article>
+      <!-- item 6 -->
+      <article class="item6 item">
+        <img src="./img/food-dish-4.jpg" alt="" class="img" />
+        <div class="shadow"></div>
+      </article>
+      <!-- item 7 -->
+      <article class="item7 item">
+        <img src="./img/food-dish-5.jpg" alt="" class="img" />
+        <div class="shadow"></div>
+      </article>
+      <!-- item 8 -->
+      <article class="item8 item">
+        <img src="./img/food-dish-6.jpg" alt="" class="img" />
+        <div class="shadow"></div>
+      </article>
+    </section>
+    <!-- end of gallery -->
+
+    <!-- reviews -->
+    <section class="reviews-container flex-center">
+      <div class="board-1">
+        <h3 class="title-underline">Reviews</h3>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <!-- slide 1 -->
+            <div class="swiper-slide">
+              <p class="review-by">Review By - Yelp</p>
+              <p class="customer-score">
+                Maria R. :
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+              </p>
+              <p class="customer-review">
+                "We always order the Sangria Swirls here. They are absolutely
+                the best tasting cocktail. It is a frozen swirl of sangria in a
+                margarita - and it is strong but so delicious."
+              </p>
+            </div>
+            <!-- slide 2 -->
+            <div class="swiper-slide">
+              <p class="review-by">Review By - Yelp</p>
+              <p class="customer-score">
+                Shih Fa K:
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+              </p>
+              <p class="customer-review">
+                "This place's Calimocho Burrito is an item that I come back
+                consistently for and order. You can taste the fries and
+                everything in it, and it's very well packed."
+              </p>
+            </div>
+            <!-- slide 3 -->
+            <div class="swiper-slide">
+              <p class="review-by">Review By - Yelp</p>
+              <p class="customer-score">
+                Matilda O.
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+              </p>
+              <p class="customer-review">
+                The reputation of Candella's preceeds itself which is why we
+                went after work to enjoy a good solid meal of Mexican goodness!
+                The staff was friendly, service quick, and the food was nothing
+                but a great experience.
+              </p>
+            </div>
+            <!-- slide 4 -->
+            <div class="swiper-slide">
+              <p class="review-by">Review By - Yelp</p>
+              <p class="customer-score">
+                A.C
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+              </p>
+              <p class="customer-review">
+                Excellent food at great prices! Go here all the time. Love the
+                carne asada super burrito. The Veggie Burrito and enchiladas are
+                also really good.
+              </p>
+            </div>
+            <!-- slide 5 -->
+            <div class="swiper-slide">
+              <p class="review-by">Review By - Yelp</p>
+              <p class="customer-score">
+                Sammy S.
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+                <i class="fa-solid fa-star star-style"></i>
+              </p>
+              <p class="customer-review">
+                I will literally drive 45 minutes here just for the frozen mango
+                margarita, but the food is good as well. If there's anything
+                that makes this place it's the pink salsa they serve. So fire.
+                The staff is super nice and it's a good vibe.
+              </p>
+            </div>
+          </div>
+
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- end of reviews -->
+
+    <!-- restaraunt features -->
+    <section class="features-container flex-center">
+      <div class="board-2">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <!-- slide 1 -->
+            <div class="swiper-slide background bg-img-1">
+              <p>Satisfy Your Taste</p>
+              <button class="btn btn-white">View Menu</button>
+            </div>
+            <!-- slide 2 -->
+            <div class="swiper-slide background bg-img-2">
+              <p>Unwind With A Drink</p>
+              <button class="btn btn-white">Drinks</button>
+            </div>
+            <!-- slide 3 -->
+            <div class="swiper-slide background bg-img-3">
+              <p>Have Us Come To You</p>
+              <button class="btn btn-white">Catering</button>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- end of restaurant features -->
+
+    <!--newsletter and g-map-->
+    <div class="newsletter-and-map">
+      <!-- newsletter -->
+      <section class="newsletter flex-center">
+        <!-- contact-title -->
+        <h3 class="title-underline">Newsletter</h3>
+        <p>Sign up for our newsleter & get exclusive offers and invites!</p>
+        <!-- form -->
+        <form action="" class="form-control flex-center">
+          <input
+            type="email"
+            name="email"
+            class="input-style"
+            placeholder="Your Email..."
+          />
+          <button class="btn submit-btn" type="submit">Submit</button>
+        </form>
+      </section>
+      <!--g-map -->
+      <section class="g-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.9602194719264!2d-121.8028797!3d37.2486513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e2e2268ffd237%3A0x1a5836227ba44c0!2sChipotle%20Mexican%20Grill!5e0!3m2!1sen!2sus!4v1695165052355!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </div>
+    <!--end of newsletter and g-map -->
+
+    <!-- footer -->
+    <footer class="footer-container">
+      <!-- location -->
+      <div class="footer-location">
+        <p class="footer-heading">Location</p>
+        <p>5670 Cottle Rd Ste 30, San Jose, CA 95123</p>
+      </div>
+      <!-- hours -->
+      <div class="footer-hours">
+        <p class="footer-heading">Hours</p>
+        <p>
+          Thur, Fri, Sat<br />
+          11:00 AM - 10:00 PM
+        </p>
+        <p>
+          Mon, Tue, Wed<br />
+          11:00 AM - 9:00 PM
+        </p>
+      </div>
+      <!-- contact -->
+      <div class="footer-contact">
+        <p class="footer-heading">Find Us On...</p>
+        <!-- footer-social-icons -->
+        <ul class="footer-social-icons">
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook social-icon footer-icon-style"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram social-icon footer-icon-style"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-yelp social-icon footer-icon-style"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="footer-heading">Contact Us</p>
+        <p>
+          (408)-444-4444<br />
+          CandellasMexicanGrill@gmail.com
+        </p>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- javascript -->
+    <script src="./app.js"></script>
+  </body>
+</html>
