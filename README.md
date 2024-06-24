@@ -7,7 +7,7 @@
 This was the first project that taught me the fundamentals of web development!
 
 This website uses vibrant colors and large pictures of the food to entice customers. The homepage has everything a traditional landing page should have.
-👉 Check Out the Live Demo: Live Demo
+👉 Check Out the <a href="https://j-rodriguez10.github.io/candellas-mexican-grill-project/" target="_blank">Live Demo</a>
 
 
 ## Built With:
